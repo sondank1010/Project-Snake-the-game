@@ -34,6 +34,11 @@ void Player::move(const int dir) {
         break;
     }
 }
+bool Player::WallCollision(SDL_Texture * Wall) {
+        
+}
+
+
 
 void Player::draw() {
 

@@ -1,4 +1,7 @@
 ﻿  Main.cpp
   player.cpp
   Generating Code...
-  Project - Snake the game.vcxproj -> D:\Project---Snake-the-game\x64\Debug\Project - Snake the game.exe
+D:\Project---Snake-the-game\Project - Snake the game\player.cpp(37,14): error C2511: 'bool Player::WallCollision(SDL_Texture *)': overloaded member function not found in 'Player'
+  D:\Project---Snake-the-game\Project - Snake the game\player.h(7,8):
+  see declaration of 'Player'
+  

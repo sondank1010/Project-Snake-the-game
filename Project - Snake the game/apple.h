@@ -5,6 +5,7 @@
 #include "player.h"
 
 struct Apple{
+	Graphics* graphics;
 	std::vector<SDL_Rect> apple;
 	void spawn();
 };

@@ -10,8 +10,9 @@ struct Player {
 	std::vector <SDL_Rect>  tail;
 
 	void move(const int dir);
+	bool WallCollision();
 	void draw();
-
+	
 };
 
 #endif

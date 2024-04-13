@@ -1,6 +1,7 @@
 #include "graphics.h"
 #include "player.h"
 #include "resolution.h"
+#include "apple.h"
 #include <SDL.h>
 #include <SDL_image.h>
 #include <algorithm>
@@ -17,22 +18,30 @@ enum Direction
     UP
 };
 
-int
-main(int argc, char* argv[])
+
+
+int main(int argc, char* argv[])
 {
     Graphics graphics;
     graphics.init();
 
     SDL_Texture* background = graphics.loadTexture("background.jpg");
 
-    SDL_Texture* border = graphics.loadTexture("borderwall.png");
+
 
     Player player;
     player.graphics = &graphics;
     graphics.renderTexture(background, 0, 0);
-    graphics.renderTexture(border, 0, 0);
     player.draw();
+
+    Apple apple;
+    apple.graphics = &graphics;
+    apple.draw();
+    
     graphics.presentScene();
+    
+  
+
 
     int dir = 0;
     bool quit = false;
@@ -43,7 +52,9 @@ main(int argc, char* argv[])
     {
         SDL_RenderClear(graphics.renderer);
         graphics.renderTexture(background, 0, 0);
-        graphics.renderTexture(border, 0, 0);
+        
+
+   
 
       while (SDL_PollEvent(&event))
         {
@@ -75,13 +86,28 @@ main(int argc, char* argv[])
                 dir = LEFT;
             }
         }
-
+        
         player.move(dir);
         player.draw();
+        apple.draw();
+
+      
+        if (apple.eaten())
+        {
+			apple.spawn();
+
+		}
+        bool wallCollision = player.WallCollision();
+        if (wallCollision)
+        {
+			cout << "Game Over" << endl;
+            quit = true;
+		}
         graphics.presentScene();
+        
     }
 
-    SDL_DestroyTexture(border);
+    
     SDL_DestroyTexture(background);
 
     graphics.quit();

@@ -1,7 +1,13 @@
-﻿  Main.cpp
+﻿  apple.cpp
+  Main.cpp
+D:\Project---Snake-the-game\Project - Snake the game\apple.h(12,8): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Main.cpp')
+  
+D:\Project---Snake-the-game\Project - Snake the game\apple.h(12,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Main.cpp')
+  
+D:\Project---Snake-the-game\Project - Snake the game\apple.h(12,16): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Main.cpp')
+  
   player.cpp
   Generating Code...
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(37,14): error C2511: 'bool Player::WallCollision(SDL_Texture *)': overloaded member function not found in 'Player'
-  D:\Project---Snake-the-game\Project - Snake the game\player.h(7,8):
-  see declaration of 'Player'
-  

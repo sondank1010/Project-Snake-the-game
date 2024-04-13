@@ -4,10 +4,15 @@
 #include "graphics.h"
 #include "player.h"
 
+
+
 struct Apple{
 	Graphics* graphics;
-	std::vector<SDL_Rect> apple;
+	SDL_Rect apple= { 100, 100, 20, 20 };
+	Player* player;
 	void spawn();
+	bool eaten();
+	void draw();
 };
 
 #endif // !_APPLE__H

@@ -1,7 +1,7 @@
-#include <iostream>
+﻿#include <iostream>
 #include <SDL.h>
 #include <SDL_image.h>
-
+#include "apple.h"
 #include "player.h"
 
 void Player::move(const int dir) {
@@ -34,9 +34,25 @@ void Player::move(const int dir) {
         break;
     }
 }
-bool Player::WallCollision(SDL_Texture * Wall) {
-        
+
+
+bool Player::WallCollision() {
+    
+    int playerX = head.x;
+    int playerY = head.y;
+    
+
+    if (playerX < 0 || playerX >= SCREEN_WIDTH - 20 || playerY  < 0 || playerY >= SCREEN_HEIGHT - 20) {
+		return true;
+	}
+
+    
+
+    return false; 
 }
+
+  
+
 
 
 

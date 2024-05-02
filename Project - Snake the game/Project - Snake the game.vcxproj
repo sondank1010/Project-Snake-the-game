@@ -83,8 +83,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\Project---Snake-the-game\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\include;D:\Project---Snake-the-game\SDL2-devel-2.30.0-VC\SDL2- Visual Studio\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Project---Snake-the-game\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x64;D:\Project---Snake-the-game\SDL2-devel-2.30.0-VC\SDL2- Visual Studio\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Project---Snake-the-game\SDL2_ttf-2.22.0\include;D:\Project---Snake-the-game\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\include;D:\Project---Snake-the-game\SDL2-devel-2.30.0-VC\SDL2- Visual Studio\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Project---Snake-the-game\SDL2_ttf-2.22.0\lib\x64;D:\Project---Snake-the-game\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x64;D:\Project---Snake-the-game\SDL2-devel-2.30.0-VC\SDL2- Visual Studio\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -124,7 +124,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

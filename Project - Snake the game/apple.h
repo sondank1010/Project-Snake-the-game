@@ -4,14 +4,10 @@
 #include "graphics.h"
 #include "player.h"
 
-
-
 struct Apple{
 	Graphics* graphics;
-	SDL_Rect apple= { 100, 100, 20, 20 };
-	Player* player;
+	SDL_Rect apple = { 100, 100, 15, 15 };
 	void spawn();
-	bool eaten();
 	void draw();
 };
 

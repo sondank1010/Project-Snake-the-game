@@ -9,6 +9,7 @@
 #include <vector>
 #include <SDL_ttf.h>
 #include <string>
+#include "audio.h"
 using namespace std;
 
 bool inside(int x, int y, SDL_Rect r) {
@@ -43,6 +44,13 @@ int main(int argc, char* argv[])
        SDL_Texture* background = graphics.loadTexture("background.jpg");
        SDL_Texture* menuBackground = graphics.loadTexture("menu.jpg");
 
+       Sound sound;
+
+      sound.init();
+      sound.load();
+
+
+
        Player player;
        player.graphics = &graphics;
        player.draw();
@@ -64,9 +72,13 @@ int main(int argc, char* argv[])
        bool quit = false;
        SDL_Event event;
        cout << "Playing" << endl;
+
+       sound.music();
        
        while (!quit)
            {
+
+           
                SDL_RenderClear(graphics.renderer);
                graphics.renderTexture(background, 0, 0);
 
@@ -79,6 +91,8 @@ int main(int argc, char* argv[])
                SDL_FreeSurface(scoreSurface);
                SDL_DestroyTexture(scoreTexture);
 
+
+               
                while (SDL_PollEvent(&event))
                {
                    if (event.type == SDL_QUIT)
@@ -117,6 +131,7 @@ int main(int argc, char* argv[])
                // Eat apple
                if (overlap(apple.apple, player.head))
                {
+                   sound.eat();
                    score++;
                    apple.spawn();
                    player.grow();
@@ -128,7 +143,9 @@ int main(int argc, char* argv[])
                bool selfCollision = player.selfCollision();
                if (wallCollision || selfCollision)
                {
-                   cout << "Game Over" << endl;
+                   sound.die();
+                   sound.stopMusic();
+                   cout << "Game Overs" << endl;
                    quit = true;
                }
 
@@ -138,6 +155,8 @@ int main(int argc, char* argv[])
            SDL_Delay(1000);
            SDL_DestroyTexture(background);
            graphics.quit();
+
+           sound.close();
 
            TTF_CloseFont(font);
            TTF_Quit();

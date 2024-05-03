@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\Project---Snake-the-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\resolution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\resolution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\audio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\audio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\audio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\audio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\graphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\graphics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\apple.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\apple.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|D:\\Project---Snake-the-game\\Project - Snake the game\\resolution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5C9B3628-C9AC-4297-9E71-F2CDFAFCCB7F}|Project - Snake the game\\Project - Snake the game.vcxproj|solutionrelative:Project - Snake the game\\resolution.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\Main.cpp",
               "RelativeDocumentMoniker": "Project - Snake the game\\Main.cpp",
               "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\Main.cpp",
               "RelativeToolTip": "Project - Snake the game\\Main.cpp",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJAAAAALAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAJIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-04T02:42:32.763Z",
               "IsPinned": true,
@@ -64,33 +72,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "graphics.h",
-              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.h",
-              "RelativeDocumentMoniker": "Project - Snake the game\\graphics.h",
-              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.h",
-              "RelativeToolTip": "Project - Snake the game\\graphics.h",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T02:42:32.801Z",
+              "DocumentIndex": 1,
+              "Title": "audio.cpp",
+              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\audio.cpp",
+              "RelativeDocumentMoniker": "Project - Snake the game\\audio.cpp",
+              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\audio.cpp",
+              "RelativeToolTip": "Project - Snake the game\\audio.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T04:36:55.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "graphics.cpp",
-              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp",
-              "RelativeDocumentMoniker": "Project - Snake the game\\graphics.cpp",
-              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp",
-              "RelativeToolTip": "Project - Snake the game\\graphics.cpp",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAADUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T03:04:34.464Z",
+              "DocumentIndex": 2,
+              "Title": "audio.h",
+              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\audio.h",
+              "RelativeDocumentMoniker": "Project - Snake the game\\audio.h",
+              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\audio.h",
+              "RelativeToolTip": "Project - Snake the game\\audio.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T04:27:25.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "graphics.h",
+              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.h",
+              "RelativeDocumentMoniker": "Project - Snake the game\\graphics.h",
+              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.h",
+              "RelativeToolTip": "Project - Snake the game\\graphics.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-04T02:42:32.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "graphics.cpp",
+              "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp",
+              "RelativeDocumentMoniker": "Project - Snake the game\\graphics.cpp",
+              "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\graphics.cpp",
+              "RelativeToolTip": "Project - Snake the game\\graphics.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-11T03:04:34.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "player.h",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\player.h",
               "RelativeDocumentMoniker": "Project - Snake the game\\player.h",
@@ -98,12 +130,11 @@
               "RelativeToolTip": "Project - Snake the game\\player.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T03:25:57.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T03:25:57.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "player.cpp",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\player.cpp",
               "RelativeDocumentMoniker": "Project - Snake the game\\player.cpp",
@@ -111,38 +142,35 @@
               "RelativeToolTip": "Project - Snake the game\\player.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T03:19:18.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T03:19:18.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "apple.h",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\apple.h",
               "RelativeDocumentMoniker": "Project - Snake the game\\apple.h",
               "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\apple.h",
               "RelativeToolTip": "Project - Snake the game\\apple.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T04:42:15.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T04:42:15.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "apple.cpp",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\apple.cpp",
               "RelativeDocumentMoniker": "Project - Snake the game\\apple.cpp",
               "ToolTip": "D:\\Project---Snake-the-game\\Project - Snake the game\\apple.cpp",
               "RelativeToolTip": "Project - Snake the game\\apple.cpp",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABwAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-11T03:33:44.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T03:33:44.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "resolution.h",
               "DocumentMoniker": "D:\\Project---Snake-the-game\\Project - Snake the game\\resolution.h",
               "RelativeDocumentMoniker": "Project - Snake the game\\resolution.h",
@@ -150,8 +178,7 @@
               "RelativeToolTip": "Project - Snake the game\\resolution.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T02:42:32.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T02:42:32.805Z"
             }
           ]
         }

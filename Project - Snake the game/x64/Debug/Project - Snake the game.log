@@ -1,14 +1,2 @@
-﻿  Main.cpp
-  apple.cpp
-  graphics.cpp
-D:\Project---Snake-the-game\Project - Snake the game\apple.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Project---Snake-the-game\Project - Snake the game\apple.cpp(26,52): warning C4305: 'argument': truncation from 'int' to 'Uint8'
-D:\Project---Snake-the-game\Project - Snake the game\apple.cpp(26,52): warning C4309: 'argument': truncation of constant value
-  player.cpp
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(24,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(29,19): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(34,19): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(38,19): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-D:\Project---Snake-the-game\Project - Snake the game\player.cpp(71,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+﻿  audio.cpp
   Project - Snake the game.vcxproj -> D:\Project---Snake-the-game\x64\Debug\Project - Snake the game.exe

@@ -38,6 +38,7 @@ enum Direction
 
 int main(int argc, char* argv[])
 {
+    
        Graphics graphics;
        graphics.init();
 
@@ -135,7 +136,7 @@ int main(int argc, char* argv[])
                    score++;
                    apple.spawn();
                    player.grow();
-                   player.speed += 0.20;
+                   player.speed += 0.3;
                    cout << score << endl;
                }
 

@@ -5,7 +5,7 @@
 #include "player.h"
 
 struct Apple{
-	Graphics* graphics;
+	Graphics* graphics ;
 	SDL_Rect apple = { 100, 100, 15, 15 };
 	void spawn();
 	void draw();

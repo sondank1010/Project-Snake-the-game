@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+D:\Project---Snake-the-game\Project - Snake the game\Main.cpp(103,66): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\Project---Snake-the-game\Project - Snake the game\Main.cpp(208,66): warning C4390: ';': empty controlled statement found; is this the intent?
   Project - Snake the game.vcxproj -> D:\Project---Snake-the-game\x64\Debug\Project - Snake the game.exe

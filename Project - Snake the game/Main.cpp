@@ -36,6 +36,8 @@ enum Direction
 };
 
 
+
+
 int main(int argc, char* argv[])
 {
     
@@ -43,7 +45,8 @@ int main(int argc, char* argv[])
        graphics.init();
 
        SDL_Texture* background = graphics.loadTexture("background.jpg");
-       SDL_Texture* menuBackground = graphics.loadTexture("menu.jpg");
+      
+      
 
        Sound sound;
 
@@ -75,12 +78,49 @@ int main(int argc, char* argv[])
        cout << "Playing" << endl;
 
        sound.music();
+       int gameStatus = 1;
+    
        
        while (!quit)
-           {
+       {
 
+
+           SDL_RenderClear(graphics.renderer);
+       
            
-               SDL_RenderClear(graphics.renderer);
+           if (gameStatus == 1) {
+               SDL_Texture* menuBackground = graphics.loadTexture("menu.jpg");
+               graphics.renderTexture(menuBackground, 0, 0);
+               graphics.presentScene();
+               while (SDL_PollEvent(&event)) {
+                   if (event.type == SDL_QUIT)
+                   {
+                       exit(0);
+                   }
+
+                   if (event.type == SDL_KEYDOWN)
+                   {
+                       if (event.key.keysym.sym == SDLK_KP_ENTER);
+                       {
+                           gameStatus = 2;
+                       }
+                    }
+
+                   if (event.type == SDL_KEYDOWN)
+                   {
+                       if (event.key.keysym.sym == SDLK_ESCAPE)
+                       {
+                           exit(0);
+                       }
+                   }
+               }
+
+
+
+           }
+
+           if (gameStatus == 2) {
+
                graphics.renderTexture(background, 0, 0);
 
 
@@ -93,7 +133,7 @@ int main(int argc, char* argv[])
                SDL_DestroyTexture(scoreTexture);
 
 
-               
+
                while (SDL_PollEvent(&event))
                {
                    if (event.type == SDL_QUIT)
@@ -146,12 +186,53 @@ int main(int argc, char* argv[])
                {
                    sound.die();
                    sound.stopMusic();
-                   cout << "Game Overs" << endl;
-                   quit = true;
+                   cout << "Game Over" << endl;
+                   gameStatus = 3;
                }
 
                graphics.presentScene();
            }
+
+           if (gameStatus == 3) {
+               SDL_Texture* gameover = graphics.loadTexture("gameover.jpg");
+               graphics.renderTexture(gameover, 0, 0);
+               graphics.presentScene();
+               while (SDL_PollEvent(&event)) {
+                   if (event.type == SDL_QUIT)
+                   {
+                       quit = true;
+                   }
+
+                   if (event.type == SDL_KEYDOWN)
+                   {
+                       if (event.key.keysym.sym == SDLK_KP_ENTER);
+                       {
+                          
+                           gameStatus = 2;
+                           score = 0;
+                           player.head.x = SCREEN_WIDTH / 2; 
+                           player.head.y = SCREEN_HEIGHT / 2;
+                           player.tail.clear(); 
+                           player.size = 2; 
+                           player.grow();
+                           dir = UP;
+                           player.speed = 5.0;
+                           sound.music();
+                       }
+                   }
+
+                   if (event.type == SDL_KEYDOWN)
+                   {
+                       if (event.key.keysym.sym == SDLK_ESCAPE)
+                       {
+                           quit = true;
+                       }
+                   }
+               }
+
+
+           }
+       }
 
            SDL_Delay(1000);
            SDL_DestroyTexture(background);

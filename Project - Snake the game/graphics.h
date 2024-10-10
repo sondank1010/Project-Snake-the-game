@@ -4,8 +4,14 @@
 #include <SDL.h>
 
 #include <SDL_image.h>
-
+#include <vector>
 #include "resolution.h"
+
+
+
+
+    
+
 
 struct Graphics {
     SDL_Renderer* renderer = NULL;
@@ -23,6 +29,7 @@ struct Graphics {
     void renderTexture(SDL_Texture* texture, int x, int y);
 
     void blitRect(SDL_Texture* texture, SDL_Rect* src, int x, int y);
+   
 
     void quit();
 

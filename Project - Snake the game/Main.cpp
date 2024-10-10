@@ -65,6 +65,8 @@ int main(int argc, char* argv[])
        apple.spawn();
        apple.draw();
 
+      
+
        TTF_Init();
        TTF_Font* font = TTF_OpenFont("COMICSANS.TTF", 24);
        SDL_Color color = { 0, 0, 0 };
@@ -86,6 +88,8 @@ int main(int argc, char* argv[])
 
 
            SDL_RenderClear(graphics.renderer);
+          
+
        
            
            if (gameStatus == 1) {
@@ -100,10 +104,9 @@ int main(int argc, char* argv[])
 
                    if (event.type == SDL_KEYDOWN)
                    {
-                       if (event.key.keysym.sym == SDLK_KP_ENTER);
-                       {
+                      
                            gameStatus = 2;
-                       }
+                       
                     }
 
                    if (event.type == SDL_KEYDOWN)
@@ -113,6 +116,12 @@ int main(int argc, char* argv[])
                            exit(0);
                        }
                    }
+                   
+                   
+                   
+                 
+
+                   
                }
 
 
@@ -122,8 +131,8 @@ int main(int argc, char* argv[])
            if (gameStatus == 2) {
 
                graphics.renderTexture(background, 0, 0);
-
-
+               
+              
                SDL_Surface* scoreSurface = TTF_RenderText_Blended(font, ("Score: " + to_string(score)).c_str(), color);
                SDL_Texture* scoreTexture = SDL_CreateTextureFromSurface(graphics.renderer, scoreSurface);
                SDL_Rect scoreRect = { SCREEN_WIDTH / 2 - scoreSurface->w, 10,scoreSurface->w , scoreSurface->h };
@@ -184,9 +193,12 @@ int main(int argc, char* argv[])
                bool selfCollision = player.selfCollision();
                if (wallCollision || selfCollision)
                {
+                  
+                 
                    sound.die();
                    sound.stopMusic();
                    cout << "Game Over" << endl;
+               
                    gameStatus = 3;
                }
 
@@ -205,8 +217,7 @@ int main(int argc, char* argv[])
 
                    if (event.type == SDL_KEYDOWN)
                    {
-                       if (event.key.keysym.sym == SDLK_KP_ENTER);
-                       {
+                       
                           
                            gameStatus = 2;
                            score = 0;
@@ -218,7 +229,7 @@ int main(int argc, char* argv[])
                            dir = UP;
                            player.speed = 5.0;
                            sound.music();
-                       }
+                       
                    }
 
                    if (event.type == SDL_KEYDOWN)
@@ -237,7 +248,7 @@ int main(int argc, char* argv[])
            SDL_Delay(1000);
            SDL_DestroyTexture(background);
            graphics.quit();
-
+        
            sound.close();
 
            TTF_CloseFont(font);

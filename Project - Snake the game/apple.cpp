@@ -17,8 +17,8 @@ int main() {
 
 void Apple::spawn() {
 
-	apple.x = rand() % (SCREEN_WIDTH - apple.w);
-	apple.y = rand() % (SCREEN_HEIGHT - apple.h);
+	apple.x = rand() % (SCREEN_WIDTH - 100);
+	apple.y = rand() % (SCREEN_HEIGHT - 100);
 
 }
 

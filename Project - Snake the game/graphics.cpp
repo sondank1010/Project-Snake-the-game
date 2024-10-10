@@ -80,6 +80,7 @@ void Graphics::blitRect(SDL_Texture* texture, SDL_Rect* src, int x, int y)
 
 	SDL_RenderCopy(renderer, texture, src, &dest);
 }
+                                                                                                                                                         
 
 void Graphics::quit()
 {
@@ -88,3 +89,5 @@ void Graphics::quit()
 	SDL_DestroyWindow(window);
 	SDL_Quit();
 }
+
+
